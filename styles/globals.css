@@ -83,17 +83,12 @@ html,
 body {
   max-width: 100vw;
   overflow-x: hidden;
+  box-sizing: border-box;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
+/* body {
+
+} */
 
 a {
   color: inherit;
@@ -104,4 +99,14 @@ a {
   html {
     color-scheme: dark;
   }
+}
+
+
+.dashboard {
+  padding: 2rem;
+}
+.dashboard button {
+  margin-top: 5px;
+  padding: 10px;
+  cursor: pointer;
 }
